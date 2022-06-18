@@ -15,10 +15,10 @@ const imgWrapperStyles = {
 }
 const imagesContainer = (
   <div class='imgWrapper' style={imgWrapperStyles}>
-    <img src={htmlImage} width='15%'/>
-    <img src={cssImage} width='15%'/>
-    <img src={jsImage} width='13%'/>
-    <img src={reactImage} width='15%'/>
+    <img src={htmlImage} width='15%' alt='html logo'/>
+    <img src={cssImage} width='15%' alt='css logo'/>
+    <img src={jsImage} width='13%' alt='javascript logo'/>
+    <img src={reactImage} width='15%' alt='react logo'/>
   </div>
 )
 
